@@ -20,34 +20,27 @@ body {
   padding: 20px 0;
 }
 .carousel__content h5 {
-  font-family: Poppins;
   font-size: 48px;
-  font-style: normal;
   font-weight: 600;
   line-height: 58px;
   letter-spacing: 0px;
-  text-align: center;
-  color: #fff;
+  /* text-align: center; */
+  /* color: #fff; */
   max-width: 639px;
   margin: 0 auto;
 }
 .carousel__content p {
-  font-family: Poppins;
   font-size: 16px;
-  font-style: normal;
   font-weight: 300;
   line-height: 24px;
   letter-spacing: 0px;
-  text-align: center;
-  color: #fff;
+  /* text-align: center; */
+  /* color: #fff; */
   max-width: 456px;
   margin: 15px auto 25px auto;
 }
 .carousel__content button {
   margin-bottom: 30px;
-}
-#about__us {
-  margin-top: 100px;
 }
 #about__us img {
   height: 100%;
@@ -63,10 +56,9 @@ body {
   letter-spacing: 0px;
   text-align: left;
 }
-
-/* #our__package {
-  margin-top: 100px;
-} */
+.toast-right{
+  display: block !important;
+}
 #our__package ul li {
   list-style: none;
 }
@@ -74,10 +66,6 @@ body {
 .hot-card {
   transform: translateY(-8%);
 }
-/* #our__clients {
-  margin-top: 100px;
-  text-align: center;
-} */
 #our__clients .section__title {
   color: #0a0826;
   font-size: 38px;
@@ -89,22 +77,7 @@ body {
   width: 100px;
   margin: 0 auto;
 }
-/* #our__clients h5 {
-  margin: 15px 0;
-} */
-#faq {
-  margin-top: 100px;
-}
-#faq .section__title {
-  text-align: center;
-  margin-bottom: 100px;
-  color: #0a0826;
-  font-family: Poppins;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 0px;
-}
+
 #faq img {
   margin-left: 2%;
   height: 100%;
@@ -112,15 +85,14 @@ body {
   -o-object-fit: cover;
   object-fit: cover;
 }
-#faq .accordion-button {
+ #faq .accordion-button {
   color: #0a0826;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0px;
-  text-align: left;
-}
+  text-align: left; 
+} 
 #faq .accordion-body {
   color: #6c6c6c;
   font-size: 16px;
@@ -130,29 +102,15 @@ body {
   text-align: left;
 }
 footer {
-  margin-top: 100px;
   background-color: #0b0d17;
-  padding: 80px 0;
 }
 footer p {
   color: #6c6c6c;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
 }
-footer h6 {
+ footer h6 {
   color: #6c6c6c;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 28px;
-  letter-spacing: 0em;
-  margin-bottom: 20px;
-}
-footer img {
-  display: block;
-  margin-top: 10px;
-}
+} 
