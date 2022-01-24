@@ -56,9 +56,7 @@ body {
   letter-spacing: 0px;
   text-align: left;
 }
-.toast-right{
-  display: block !important;
-}
+
 #our__package ul li {
   list-style: none;
 }
