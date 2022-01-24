@@ -64,39 +64,34 @@ body {
   text-align: left;
 }
 
-#our__package {
+/* #our__package {
   margin-top: 100px;
-}
-/* #our__package ul {
-  margin: 0;
-  padding: 0;
 } */
 #our__package ul li {
   list-style: none;
 }
-#our__clients {
+
+.hot-card {
+  transform: translateY(-8%);
+}
+/* #our__clients {
   margin-top: 100px;
   text-align: center;
-}
+} */
 #our__clients .section__title {
-  text-align: center;
-  margin-bottom: 100px;
   color: #0a0826;
-  font-family: Poppins;
   font-size: 38px;
-  font-style: normal;
   font-weight: 700;
   line-height: 60px;
-  letter-spacing: 0px;
 }
 #our__clients img {
   height: 100px;
   width: 100px;
   margin: 0 auto;
 }
-#our__clients h5 {
+/* #our__clients h5 {
   margin: 15px 0;
-}
+} */
 #faq {
   margin-top: 100px;
 }
@@ -106,7 +101,6 @@ body {
   color: #0a0826;
   font-family: Poppins;
   font-size: 38px;
-  font-style: normal;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0px;
@@ -130,7 +124,6 @@ body {
 #faq .accordion-body {
   color: #6c6c6c;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0px;
