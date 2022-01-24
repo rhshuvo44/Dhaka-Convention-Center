@@ -19,13 +19,14 @@ body {
 .navbar {
   padding: 20px 0;
 }
+#banner__slider img{
+height: 586px;
+}
 .carousel__content h5 {
   font-size: 48px;
   font-weight: 600;
   line-height: 58px;
   letter-spacing: 0px;
-  /* text-align: center; */
-  /* color: #fff; */
   max-width: 639px;
   margin: 0 auto;
 }
@@ -34,8 +35,6 @@ body {
   font-weight: 300;
   line-height: 24px;
   letter-spacing: 0px;
-  /* text-align: center; */
-  /* color: #fff; */
   max-width: 456px;
   margin: 15px auto 25px auto;
 }
