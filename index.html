@@ -17,7 +17,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- navbar start -->
@@ -41,10 +41,14 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">About Us</a>
+              <a class="nav-link" aria-current="page" href="#about__us"
+                >About Us</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+              <a class="nav-link" aria-current="page" href="#contact"
+                >Contact Us</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Subscribe Us</a>
@@ -98,9 +102,7 @@
                   amet sint.
                 </p>
                 <button class="btn btn-primary">
-                  <a
-                    class="text-white text-decoration-none"
-                    href="https://web.programming-hero.com/"
+                  <a class="text-white text-decoration-none" href="#"
                     >Book Now</a
                   >
                 </button>
@@ -119,9 +121,7 @@
                   amet sint.
                 </p>
                 <button class="btn btn-primary">
-                  <a
-                    class="text-white text-decoration-none"
-                    href="https://www.facebook.com/"
+                  <a class="text-white text-decoration-none" href="#"
                     >Book Now</a
                   >
                 </button>
@@ -140,9 +140,7 @@
                   amet sint.
                 </p>
                 <button class="btn btn-primary">
-                  <a
-                    class="text-white text-decoration-none"
-                    href="https://www.youtube.com/"
+                  <a class="text-white text-decoration-none" href="#"
                     >Book Now</a
                   >
                 </button>
@@ -196,22 +194,6 @@
       <!-- about us end -->
       <!-- Our package start -->
       <section id="our__package" class="container">
-        <div
-          class="toast mt-5 align-items-center"
-          role="alert"
-          aria-live="assertive"
-          aria-atomic="true"
-        >
-          <div class="d-flex">
-            <div class="toast-body">20% off on next booking</div>
-            <button
-              type="button"
-              class="btn-close me-2 m-auto"
-              data-bs-dismiss="toast"
-              aria-label="Close"
-            ></button>
-          </div>
-        </div>
         <h2 class="section__title py-5 text-center">Our packages</h2>
 
         <div class="card-group gap-3">
@@ -468,16 +450,20 @@
       </section>
       <!-- faq end -->
       <!-- Sing Up -->
-      <div class="container">
-        <h2 class="section__title my-5 text-center">Sing Up</h2>
+      <div class="container" id="contact">
+        <h2 class="section__title my-5 text-center">Contact Us</h2>
         <form class="row g-3">
           <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" />
+            <label for="inputFirstName" class="form-label">First Name</label>
+            <input type="email" class="form-control" id="inputFirstName" />
           </div>
           <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword4" />
+            <label for="inputLastName" class="form-label">Last Name</label>
+            <input type="email" class="form-control" id="inputLastName" />
+          </div>
+          <div class="col-md-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" />
           </div>
           <div class="col-12">
             <label for="inputAddress" class="form-label">Address</label>
@@ -497,31 +483,8 @@
               placeholder="Apartment, studio, or floor"
             />
           </div>
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity" />
-          </div>
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose...</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip" />
-          </div>
           <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" />
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <button type="submit" class="btn btn-primary">Contact</button>
           </div>
         </form>
       </div>
@@ -535,13 +498,12 @@
           </div>
           <div class="col-lg-2 col-md-2 col-sm-12 col-12">
             <h6 class="mb-3">Get the App</h6>
-            <a href="https://apps.apple.com/us/app/facebook/id284882215"
+            <a href="#"
               ><img
                 src="./assets/images/App Store Badge.png"
                 alt="App Store Badge"
             /></a>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&hl=en&gl=US"
+            <a href="#"
               ><img
                 src="./assets/images/Google Play Badge.png"
                 alt="Play Store Badge"
@@ -567,12 +529,5 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script>
-      window.onload = (event) => {
-        let myAlert = document.querySelector(".toast");
-        let bsAlert = new bootstrap.Toast(myAlert);
-        bsAlert.show();
-      };
-    </script>
   </body>
 </html>
